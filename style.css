@@ -194,5 +194,14 @@ html{
 .conoceme .fila ,col ul li strong{
     display: inline-block;
     color: #b10adb;
+    width: 130px;
+}
+
+
+.conoceme .fila .col ul li span{
+    background-color: #b10adb;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
