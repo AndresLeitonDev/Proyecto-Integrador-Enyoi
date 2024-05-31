@@ -205,3 +205,19 @@ html{
     border-radius: 5px;
 }
 
+.conoceme .fila .col .contenedor-hobbies{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conoceme .fila .col .contenedor-hobbies .hobbie{
+    width: 100px;
+    height: 100px;
+    background-color: #252a2e;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
