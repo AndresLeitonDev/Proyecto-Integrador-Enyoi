@@ -18,15 +18,15 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio">INICIO</a></li>
-                    <li><a href="#conoceme">CONOCEME</a></li>
-                    <li><a href="#habilidades">HABILIDADES</a></li>
-                    <li><a href="#hojadevida">HOJA DE VIDA</a></li>
-                    <li><a href="#servicios">SERVICIOS</a></li>
-                    <li><a href="#contactame">CONTACTAME</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#conoceme" onclick="seleccionar()">CONOCEME</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#hojadevida" onclick="seleccionar()">HOJA DE VIDA</a></li>
+                    <li><a href="#servicios" onclick="seleccionar()">SERVICIOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTAME</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
@@ -76,20 +76,12 @@
                             andresh.leiton@gmail.com
                         </li>
                         <li>
-                            <strong>Cumpleaños</strong>
-                            01-08-1995
-                        </li>
-                        <li>
                             <strong>WebSite</strong>
                             www.innovateproal.com.co
                         </li>
                         <li>
                             <strong>Dirección</strong>
                             av siempreviva 8 32 colombia
-                        </li>
-                        <li>
-                            <strong></strong>
-                            01-08-1995
                         </li>
                     </ul>
                 </div>
@@ -134,5 +126,260 @@
             </button>
         </div>
     </section>
+
+    <!--Aqui va la seccion de habilidades-->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!--habilidades web-->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="habilidad">
+                        <span>HTML & CSS</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>87%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Javascript</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>47%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Marketing Digital</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Community Management</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--habilidades personales-->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="habilidad">
+                        <span>Comunicación</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>87%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Dedicación</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Creatividad</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Proyect Management</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>87%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--aqui va la seccion de hoja de vida-->
+    <section id="hojadevida" class="hojadevida">
+        <div class="contenido-seccion">
+            <h2>Hoja de Vida</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria de Software</h4>
+                        <span class="casa">Institucion Universitaria UNINPAHU</span>
+                        <span class="fecha">Actualmente</span>
+                        <p>Actualmente 1 semestre</p>
+                        <br>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Asistente Administrativo</h4>
+                        <span class="casa">Servicio Nacional de Aprendizaje SENA</span>
+                        <span class="fecha">06 Junio 2016 - 07 Febrero 2017</span>
+                        <p>Tecnico Laboral en Asistencia Administrativa</p>
+                        <br>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachiller Academico</h4>
+                        <span class="casa">Corporacion Educativa Arkos U</span>
+                        <span class="fecha">10 Diciembre 2012 - 14 Dciiembre 2013</span>
+                        <p>Bachiller Academico</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Asesor de Citas Medicas</h4>
+                        <span class="casa">Idime S.A</span>
+                        <span class="fecha">Actualmente</span>
+                        <p>Asignación de citas médicas de los usuarios de la red de Nueva EPS y Sanitas</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Asesor de Citas Medicas</h4>
+                        <span class="casa">Salud Total</span>
+                        <span class="fecha"></span>
+                        <p>Asignación de citas médicas de los usuarios de la red de Salud Total</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Auxiliar de Pista</h4>
+                        <span class="casa">J Pachon SAS Petrobras</span>
+                        <span class="fecha">12 Enero 2022 - 31 Diciembre 2022</span>
+                        <p>Recaudo y manejo de sumas altas, por servicio vendido con informe diario de venta.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--aqui va ala seccion de servicios-->
+    <section id="servicios" class="servicios">
+        <div class="contenido-seccion">
+            <h2>Servicios</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="images/fondo" alt=""> <!--aqui va innovateproal-->
+                    <div class="overlay">
+                        <h3>Desarrollo Web</h3>
+                        <p>Pagina Web Oficial</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="images/fondo" alt=""> <!--aqui va Tecnomarcket-->
+                    <div class="overlay">
+                        <h3>Tienda en Linea</h3>
+                        <p>Lading Page</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="images/fondo" alt=""> <!--aqui va MixMaquet-->
+                    <div class="overlay">
+                        <h3>Tienda Movil</h3>
+                        <p>Desarrollo web Responsivo</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="images/fondo" alt="">
+                    <div class="overlay">
+                        <h3>Marketing Digital</h3>
+                        <p>Impulso tu pagina web</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--por ultimo va contactame-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contactame</h2>
+            <div class="fila">
+                <!--aqui va un formulario normal-->
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Telefono">
+                    <input type="text" placeholder="Correo">
+                    <input type="text" placeholder="Hablemos">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar<i class="fa-sharp fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--el mapa de toda pagina-->
+                <div class="col">
+                    <img src="images/mapa.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                Av siempreviva 8 32, Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 3224277291
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: andresh.leiton@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--aqui va el footer-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
