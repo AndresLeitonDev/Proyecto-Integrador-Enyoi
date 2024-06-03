@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Poetsen+One&display=swap');
+
 *{
     box-sizing: border-box;
-    font-family:"Work Sans";
+    font-family: "Edu TAS Beginner", cursive;
     margin: 0;
     padding: 0;
 }
@@ -31,7 +32,7 @@ html{
 }
 
 .contenedor-header header .logo a{
-    font-family: "Righteous";
+    font-family: "Poetsen One";
     font-size: 36px;
     color: #b10adb;
     text-decoration: none;
@@ -111,7 +112,7 @@ html{
 .inicio .contenido-banner h1{
     margin-top: 40px;
     font-size: 42px;
-    font-family: "Righteous";
+    font-family: "Poetsen One";
 }
 
 .inicio .contenido-banner h2{
@@ -149,7 +150,7 @@ html{
     
 .conoceme h2{
     font-size: 48px;
-    font-family: "Righteous";
+    font-family: "Poetsen One";
     text-align: center;
     padding: 20px 0;
 }
@@ -175,7 +176,7 @@ html{
 
 .conoceme .fila .col h3{
     font-size: 28px;
-    font-family: "Righteous";
+    font-family: "Poetsen One";
     margin-bottom: 25px;
 }
 
@@ -276,7 +277,7 @@ html{
     
 .habilidades h2{
     font-size: 48px;
-    font-family: "Righteous";
+    font-family: "Poetsen One";
     text-align: center;
     padding: 20px 0;
 }
@@ -292,7 +293,7 @@ html{
 
 .habilidades .fila .col h3{
     font-size: 28px;
-    font-family: "Righteous";
+    font-family: "Poetsen One";
     margin-bottom: 25px;
 }
 
@@ -436,7 +437,7 @@ html{
     
 .hojadevida h2{
     font-size: 48px;
-    font-family: "Righteous";
+    font-family: "Poetsen One";
     text-align: center;
     padding: 20px 0;
 }
@@ -453,7 +454,7 @@ html{
 
 .hojadevida .fila .col h3{
     font-size: 28px;
-    font-family: "Righteous";
+    font-family: "Poetsen One";
     margin-bottom: 25px;   
 }
 
@@ -561,7 +562,7 @@ html{
     
 .servicios h2{
     font-size: 48px;
-    font-family: "Righteous";
+    font-family: "Poetsen One";
     text-align: center;
     padding: 20px 0;
 }
@@ -629,7 +630,7 @@ html{
 
 .contacto h2{
     font-size: 48px;
-    font-family: "Righteous";
+    font-family: "Poetsen One";
     text-align: center;
     padding: 20px 0;
 }
@@ -648,7 +649,7 @@ html{
     display: block;
     width: 100%;
     padding: 18px;
-    border: none;
+    border: none;   
     margin-bottom: 20px;
     background-color: #252a2e;
     color:#fff;
